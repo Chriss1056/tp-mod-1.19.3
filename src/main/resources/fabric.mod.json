@@ -8,8 +8,7 @@
 		"Galastom"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Chriss1056/tp-mod-1.19.3"
 	},
 	"license": "All Rights Reserved",
 	"icon": "assets/tp-mod/icon.png",
