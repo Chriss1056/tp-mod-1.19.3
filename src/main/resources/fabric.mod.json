@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tp-mod",
+	"version": "${version}",
+	"name": "TP Mod",
+	"description": "This is a instant TP mod.",
+	"authors": [
+		"Galastom"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/tp-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.galastom.tpmod.TP_mod"
+		],
+		"client": [
+			"net.galastom.tpmod.TP_mod_Client"
+		],
+		"fabric-datagen": [
+          "net.galastom.tpmod.TP_mod_DataGenerator"
+		]
+	},
+	"mixins": [
+		"tp-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.14",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
